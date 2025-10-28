@@ -1,6 +1,8 @@
-namespace DefaultNamespace;
 
-public interface ISceneLoader
+namespace Scene.Impls
 {
-    
+    public interface ISceneLoader
+    {
+        void LoadScene(string sceneName);
+    }
 }

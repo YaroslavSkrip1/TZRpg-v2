@@ -1,12 +1,11 @@
 using System;
 using UnityEngine;
 
-namespace DefaultNamespace;
-
-[Serializable]
-public class CharacterEntry
+namespace Config.Data
 {
-    public string Id;
-    public GameObject PreviewPrefab;
-    public GameObject RuntimePrefab; 
+    [Serializable]
+    public class CharacterEntry
+    {
+        public GameObject Prefab;
+    }
 }
